@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>6.1.3</Version>
+    <Company>MediTechSys</Company>
+    <Authors>Develop Team</Authors>
+    <Owners>MediTechSys</Owners>
+    <PackageIconUrl>http://172.16.100.52:90/base.png</PackageIconUrl>
+    <PackageProjectUrl>http://172.16.100.52/icd/base.git</PackageProjectUrl>
+  </PropertyGroup>
+
+  
+  <ItemGroup>
+    <ProjectReference Include="..\ICD.Base\ICD.Base.csproj" />
+  </ItemGroup>
+</Project>
